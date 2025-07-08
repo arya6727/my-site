@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    const pass = prompt("Enter admin password:");
+    if (pass !== "arya1391") {
+      alert("Access Denied");
+      window.location.href = "index.html";
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome Arya 👑</h1>
+    <p>This is the secure admin panel.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+
+body {
+  background-color: #000;
+  color: #00ff9f;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  text-align: center;
+}
+.highlight {
+  color: #ff00ff;
+}
